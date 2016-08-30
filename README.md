@@ -5,12 +5,11 @@ It examines all the JPEG files inside a given folder and see which ones lack tha
 ## Requirements
 You need to install [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) first. Make sure it's properly configured, the executable is in PATH, etc.
 
-The following Ruby gems are needed:
-- [colorize](https://github.com/janfri/mini_exiftool)
-- [mini_exiftool](https://github.com/janfri/mini_exiftool)
-- [highline](https://github.com/JEG2/highline)
+## Installing
 
-Install each using `gem install <gemname>`. (TODO Bundler support)
+```bundle install```
+
+This project uses the awesome [colorize](https://github.com/janfri/mini_exiftool), [mini_exiftool](https://github.com/janfri/mini_exiftool) and [highline](https://github.com/JEG2/highline) gems.
 
 ## Usage
 
