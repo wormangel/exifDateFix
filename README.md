@@ -7,7 +7,9 @@ You need to install [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) fi
 
 ## Installing
 
-```bundle install```
+```
+bundle install
+```
 
 This project uses the awesome [colorize](https://github.com/janfri/mini_exiftool), [mini_exiftool](https://github.com/janfri/mini_exiftool) and [highline](https://github.com/JEG2/highline) gems.
 
