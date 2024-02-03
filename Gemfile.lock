@@ -12,6 +12,3 @@ DEPENDENCIES
   colorize
   highline
   mini_exiftool
-
-BUNDLED WITH
-   1.10.6

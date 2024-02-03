@@ -8,7 +8,7 @@ unless dir
   raise ArgumentError.new("Usage: exifDateFix <directory_path>".green)
 end
 
-unless File.exists?(dir)
+unless File.exist?(dir)
   raise ArgumentError.new("Directory not found: #{dir}")
 end
 
